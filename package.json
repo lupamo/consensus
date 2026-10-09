@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "migrate": "tsx scripts/migrate.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "ag-grid-community": "^36.2.0",
